@@ -1,0 +1,14 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio website",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
+    "start": "live-server"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1",
+    "live-server": "^1.2.2"
+  }
+}
